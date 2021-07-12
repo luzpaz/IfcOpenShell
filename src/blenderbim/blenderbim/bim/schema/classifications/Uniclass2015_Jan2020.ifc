@@ -1812,7 +1812,7 @@ DATA;
 #1805=IFCCLASSIFICATIONREFERENCE($,'SL_20_50_96','Waste and scrap yards',#1786,$,$);
 #1806=IFCCLASSIFICATIONREFERENCE($,'SL_20_55','Postal communications spaces',#1768,$,$);
 #1807=IFCCLASSIFICATIONREFERENCE($,'SL_20_55_45','Letter sorting offices',#1806,$,$);
-#1808=IFCCLASSIFICATIONREFERENCE($,'SL_20_55_50','Mail order sorting and despatch facilities',#1806,$,$);
+#1808=IFCCLASSIFICATIONREFERENCE($,'SL_20_55_50','Mail order sorting and dispatch facilities',#1806,$,$);
 #1809=IFCCLASSIFICATIONREFERENCE($,'SL_20_55_60','Parcel sorting offices',#1806,$,$);
 #1810=IFCCLASSIFICATIONREFERENCE($,'SL_20_55_65','Post rooms',#1806,$,$);
 #1811=IFCCLASSIFICATIONREFERENCE($,'SL_20_60','Military protective spaces',#1768,$,$);

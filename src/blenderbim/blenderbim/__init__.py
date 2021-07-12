@@ -24,7 +24,7 @@ site.addsitedir(os.path.join(cwd, "libs", "site", "packages"))
 from .bim import *
 
 
-# Explicitely expose bim.xx when imported with from blenderbim import *
+# Explicitly expose bim.xx when imported with from blenderbim import *
 # Other bim still are importable using explicit from blenderbim.bim import xxx
 __all__ = ["export_ifc", "import_ifc"]
 

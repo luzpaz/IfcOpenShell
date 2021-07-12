@@ -189,7 +189,7 @@ class BaseDecorator():
         return vertices, indices
 
     def decorate(self, context, object):
-        """perform actuall drawing stuff"""
+        """perform actual drawing stuff"""
         raise NotImplementedError()
 
     def draw_lines(self, context, obj, vertices, indices, topology=None):

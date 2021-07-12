@@ -62,7 +62,7 @@
         "NOTDEFINED": "Undefined terminal box.",
         "USERDEFINED": "User-defined terminal box.",
         "VARIABLEFLOWPRESSUREDEPENDANT": "Terminal box includes a means to reset the volume automatically to a different control point in response to an outside signal such as thermostat: air-flow rate depends on supply pressure.",
-        "VARIABLEFLOWPRESSUREINDEPENDANT": "Terminal box includes a means to reset the volume automatically to a different control point in response to an outside signal such as thermostat: air-flow rate is independant of supply pressure."
+        "VARIABLEFLOWPRESSUREINDEPENDANT": "Terminal box includes a means to reset the volume automatically to a different control point in response to an outside signal such as thermostat: air-flow rate is independent of supply pressure."
     },
     "IfcAirToAirHeatRecoveryTypeEnum": {
         "FIXEDPLATECOUNTERFLOWEXCHANGER": "Heat exchanger with moving parts and alternate layers of plates, separated and sealed from the exhaust and supply air stream passages with primary air entering at secondary air outlet location and exiting at secondary air inlet location.",
@@ -369,7 +369,7 @@
         "BLASTDAMPER": "Blast damper used to prevent protect occupants and equipment against overpressures resultant of an explosion.  Commonly operated by mechanical spring.",
         "CONTROLDAMPER": "Control damper used to modulate the flow of air by adjusting the position of the blades.  Commonly operated by an actuator of a building automation system.",
         "FIREDAMPER": "Fire damper used to prevent the spread of fire for a specified duration.  Commonly operated by fusable link that melts above a certain temperature.",
-        "FIRESMOKEDAMPER": "Combination fire and smoke damper used to preven the spread of fire and smoke.  Commonly operated by a fusable link and a smoke detector.",
+        "FIRESMOKEDAMPER": "Combination fire and smoke damper used to prevent the spread of fire and smoke.  Commonly operated by a fusable link and a smoke detector.",
         "FUMEHOODEXHAUST": "Fume hood exhaust damper.  Commonly operated by actuator.",
         "GRAVITYDAMPER": "Gravity damper closes from the force of gravity.  Commonly operated by gravitational weight.",
         "GRAVITYRELIEFDAMPER": "Gravity-relief damper used to allow air to move upon a buildup of enough pressure to overcome the gravitational force exerted upon the damper blades.  Commonly operated by gravitational weight.",
@@ -442,7 +442,7 @@
     },
     "IfcDistributionChamberElementTypeEnum": {
         "FORMEDDUCT": "Space formed in the ground for the passage of pipes, cables, ducts.",
-        "INSPECTIONCHAMBER": "Chamber constructed on a drain, sewer or pipeline with a removable cover that permits visble inspection.",
+        "INSPECTIONCHAMBER": "Chamber constructed on a drain, sewer or pipeline with a removable cover that permits visible inspection.",
         "INSPECTIONPIT": "Recess or chamber formed to permit access for inspection of substructure and services.",
         "MANHOLE": "hamber constructed on a drain, sewer or pipeline with a removable cover that permits the entry of a person.",
         "METERCHAMBER": "Chamber that houses a meter(s).",
@@ -535,14 +535,14 @@
         "USERDEFINED": "User-defined door element."
     },
     "IfcDoorTypeOperationEnum": {
-        "DOUBLE_DOOR_DOUBLE_SWING": "Door with two panels, one swings in both directions and to the right in the main trafic direction the other swings also in both directions and to the left in the main trafic direction.",
+        "DOUBLE_DOOR_DOUBLE_SWING": "Door with two panels, one swings in both directions and to the right in the main traffic direction the other swings also in both directions and to the left in the main traffic direction.",
         "DOUBLE_DOOR_FOLDING": "Door with two panels, one is folding to the left the other is folding to the right.",
         "DOUBLE_DOOR_SINGLE_SWING": "Door with two panels, one opens (swings) to the left the other opens (swings) to the right.",
         "DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_LEFT": "Door with two panels that both open to the left, one panel swings in one direction and the other panel swings in the opposite direction.",
         "DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_RIGHT": "Door with two panels that both open to the right, one panel swings in one direction and the other panel swings in the opposite direction.",
         "DOUBLE_DOOR_SLIDING": "Door with two panels, one is sliding to the left the other is sliding to the right.",
-        "DOUBLE_SWING_LEFT": "Door with one panel that swings in both directions and to the left in the main trafic direction. Also called double acting door.",
-        "DOUBLE_SWING_RIGHT": "Door with one panel that swings in both directions and to the right in the main trafic direction. Also called double acting door.",
+        "DOUBLE_SWING_LEFT": "Door with one panel that swings in both directions and to the left in the main traffic direction. Also called double acting door.",
+        "DOUBLE_SWING_RIGHT": "Door with one panel that swings in both directions and to the right in the main traffic direction. Also called double acting door.",
         "FOLDING_TO_LEFT": "Door with one panel that is folding to the left.",
         "FOLDING_TO_RIGHT": "Door with one panel that is folding to the right.",
         "NOTDEFINED": "A door with a not defined operation type is considered as a door with a lining, but no panels. It is thereby always open.",
@@ -576,7 +576,7 @@
     "IfcDoorStyleOperationEnum": {
         "DOUBLE_DOOR_DOUBLE_SWING": "DOUBLE_SWING_LEFTDOUBLE_SWING_RIGHTSLIDING_TO_LEFTDoor with one panel that is sliding to the left.",
         "DOUBLE_DOOR_FOLDING": "Door with two panels, one is folding to the left the other is folding to the right.",
-        "DOUBLE_DOOR_SINGLE_SWING": "Door with two panels, one swings in both directions and to the right in the main trafic direction the other swings also in both directions and to the left in the main trafic direction.",
+        "DOUBLE_DOOR_SINGLE_SWING": "Door with two panels, one swings in both directions and to the right in the main traffic direction the other swings also in both directions and to the left in the main traffic direction.",
         "DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_LEFT": "Door with two panels that both open to the left, one panel swings in one direction and the other panel swings in the opposite direction.",
         "DOUBLE_DOOR_SINGLE_SWING_OPPOSITE_RIGHT": "Door with two panels that both open to the right, one panel swings in one direction and the other panel swings in the opposite direction.",
         "DOUBLE_DOOR_SLIDING": "Door with two panels, one is sliding to the left the other is sliding to the right.",
@@ -588,7 +588,7 @@
         "REVOLVING": "An entrance door consisting of four leaves set in a form of a cross and revolving around a central vertical axis (the four panels are described by a single IfcDoor panel property).",
         "ROLLINGUP": "Door that opens by rolling up.",
         "SINGLE_SWING_LEFT": "Door with one panel that opens (swings) to the left. The hinges are on the left side as viewed in the direction of the positive y-axis.",
-        "SINGLE_SWING_RIGHT": "Door with one panel that swings in both directions and to the right in the main trafic direction. Also called double acting door.",
+        "SINGLE_SWING_RIGHT": "Door with one panel that swings in both directions and to the right in the main traffic direction. Also called double acting door.",
         "SLIDING_TO_LEFT": "DOUBLE_SWING_LEFTDOUBLE_SWING_RIGHTDOUBLE_DOOR_DOUBLE_SWINGDoor with one panel that is sliding to the left.",
         "SLIDING_TO_RIGHT": "Door with one panel that is sliding to the right.",
         "USERDEFINED": "User defined operation type"
@@ -753,7 +753,7 @@
     "IfcExternalSpatialElementTypeEnum": {
         "EXTERNAL": "External air space around the building.",
         "EXTERNAL_EARTH": "External volume covered by earth around the building.",
-        "EXTERNAL_FIRE": "Space occupied by a neightboring building.",
+        "EXTERNAL_FIRE": "Space occupied by a neighboring building.",
         "EXTERNAL_WATER": "External volume covered with water around the building.",
         "NOTDEFINED": "USERDEFINED",
         "USERDEFINED": "NOTDEFINED"
@@ -848,7 +848,7 @@
         "PLAN_VIEW": "Geometric display representation that shows a full 2D element representation, the level of detail often depends on the target scale, e.g. representing a wall by its two foot print edges and the edges of all inner layers. The projection is shown in ground view as seen from above.",
         "REFLECTED_PLAN_VIEW": "Geometric display representation that shows a full 2D element representation, the level of detail often depends on the target scale, e.g. representing a wall by its two foot print edges and the edges of all inner layers. The projection is shown in ground view as seen from below.",
         "SECTION_VIEW": "Geometric display representation that shows a full 2D element representation, the level of detail often depends on the target scale, e.g. representing a wall by its two inner/outer edges and the edges of all inner layers, if the element is cut by the section line.",
-        "SKETCH_VIEW": "Geometric display representation that shows an abstract, often 2D element representation, e.g. representing a wall by its two foot print edges, surpressing any inner layer representation.",
+        "SKETCH_VIEW": "Geometric display representation that shows an abstract, often 2D element representation, e.g. representing a wall by its two foot print edges, suppressing any inner layer representation.",
         "USERDEFINED": "A user defined specification is given by the value of the UserDefinedTargetView attribute."
     },
     "IfcGridTypeEnum": {
@@ -980,7 +980,7 @@
         "POSITIVE": "Direction defined to be positive."
     },
     "IfcMechanicalFastenerTypeEnum": {
-        "ANCHORBOLT": "A special bolt which is anchored into conrete, stone, or brickwork.",
+        "ANCHORBOLT": "A special bolt which is anchored into concrete, stone, or brickwork.",
         "BOLT": "A threaded cylindrical rod that engages with a similarly threaded hole in a nut or any other part to form a fastener. The mechanical fastener often also includes one or more washers and one or more nuts.",
         "DOWEL": "A cylindrical rod that is driven into holes of the connected pieces.",
         "NAIL": "A thin pointed piece of metal that is hammered into materials as a fastener.",
@@ -1099,7 +1099,7 @@
         "LETTINGAGENT": "Actor participating in a property agreement on behalf of an owner, lessor or assignor.",
         "NOTDEFINED": "Undefined type.",
         "OWNER": "Actor that owns a property.",
-        "TENANT": "Actor renting the use of a property fro a period of time.",
+        "TENANT": "Actor renting the use of a property for a period of time.",
         "USERDEFINED": "User-defined type."
     },
     "IfcOpeningElementTypeEnum": {
@@ -1198,7 +1198,7 @@
     "IfcPlateTypeEnum": {
         "CURTAIN_PANEL": "A planar element within a curtain wall, often consisting of a frame with fixed glazing.",
         "NOTDEFINED": "Undefined linear element.",
-        "SHEET": "A planar, flat and thin element, comes usually as metal sheet, and is often used as an additonal part within an assembly.",
+        "SHEET": "A planar, flat and thin element, comes usually as metal sheet, and is often used as an additional part within an assembly.",
         "USERDEFINED": "User-defined linear element."
     },
     "IfcProcedureTypeEnum": {
@@ -1508,7 +1508,7 @@
         "LIGHTING": "The spatial zone is used to represent a lighting zone; a daylight zone, or an artificial lighting zone.",
         "NOTDEFINED": "Undefined type spatial zone.",
         "OCCUPANCY": "The spatial zone is used to represent a zone of particular occupancy.",
-        "SECURITY": "The spatial zone is used to represent a zone for security planning and maintainance work.",
+        "SECURITY": "The spatial zone is used to represent a zone for security planning and maintenance work.",
         "THERMAL": "The spatial zone is used to represent a thermal zone.",
         "TRANSPORT": "VENTILATIONThe spatial zone is used to represent a ventilation zone.",
         "USERDEFINED": "User defined type spatial zone.",
@@ -1700,7 +1700,7 @@
         "FEEDANDEXPANSION": "An open tank that is used for both storage and thermal expansion. A typical example is a tank used to store make-up water at ambient pressure for supply to a hot water system, simultaneously accommodating increases in volume of the water when heated.",
         "NOTDEFINED": "Undefined tank type.",
         "PRESSUREVESSEL": "A closed container used for storing fluids or gases at a pressure different from the ambient pressure. A pressure vessel is typically rated by an authority having jurisdiction for the operational pressure.",
-        "STORAGE": "An open or closed containter used for storing a fluid at ambient pressure and from which it can be supplied to the fluid distribution system. There are many examples of storage tanks, such as potable water storage tanks, fuel storage tanks, etc.",
+        "STORAGE": "An open or closed container used for storing a fluid at ambient pressure and from which it can be supplied to the fluid distribution system. There are many examples of storage tanks, such as potable water storage tanks, fuel storage tanks, etc.",
         "USERDEFINED": "User-defined tank type.",
         "VESSEL": "An arbitrary closed tank type."
     },
@@ -1711,7 +1711,7 @@
         "DISMANTLE": "Taking something apart carefully so that it can be recycled or reused.",
         "DISPOSAL": "Disposing or getting rid of something.",
         "INSTALLATION": "Installing something (equivalent to construction but more commonly used for engineering tasks).",
-        "LOGISTIC": "Transporation or delivery of something.",
+        "LOGISTIC": "Transportation or delivery of something.",
         "MAINTENANCE": "Keeping something in good working order.",
         "MOVE": "Moving things from one place to another.",
         "NOTDEFINED": "USERDEFINED",
